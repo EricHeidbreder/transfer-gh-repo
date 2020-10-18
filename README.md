@@ -8,7 +8,7 @@ It's been quite an adventure trying to transfer my files over from my General As
 ```Bash
 # Mirror the original repo, choosing GA_projects as the folder to clone the repo to on my local machine
 my_username@my_computer_name /g/DS/DSIR_GH
-$ git clone --mirror [old_repo_link] GA_projects
+$ git clone --mirror [orig_repo_link] GA_projects
 
 # Go into new project directory
 my_username@my_computer_name /g/DS/DSIR_GH
