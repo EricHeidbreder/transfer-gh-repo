@@ -106,3 +106,7 @@ $ git branch -m clean main
 
 ## You're all done!
 You should now have a git repo that has all the folders you want while hiding that sweet, sweet, proprietary information!
+
+## Extra sources:
+
+https://itnext.io/git-repository-transfer-keeping-all-history-670fe04cd5e4
