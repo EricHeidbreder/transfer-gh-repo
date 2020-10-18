@@ -18,7 +18,7 @@ $ cd GA_projects/
 my_username@my_computer_name /g/DS/DSIR_GH/GA_projects (BARE:master)
 $ git remote remove origin
 
-# Go to github.com and make a new repo where you'll store all of this
+# Go to your personal github and make a new repo where you'll store all of this
 # Add new repo link from your personal Github
 my_username@my_computer_name /g/DS/DSIR_GH/GA_projects (BARE:master)
 $ git remote add origin [new_repo_link]
