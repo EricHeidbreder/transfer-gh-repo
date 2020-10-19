@@ -39,6 +39,8 @@ $ cd ..
 my_username@my_computer_name /g/DS/DSIR_GH
 $ rm -rf GA_projects
 
+### YOU MAY NEED TO SWITCH THE DEFAULT BRANCH TO 'MASTER' ###
+### BEFORE THIS STEP IF YOU'RE USING A REPO PRE OCT 2020 ###
 # Clone the new repo (from your personal Github) to a folder on your original machine (again, I'm going to call it GA_projects)
 my_username@my_computer_name /g/DS/DSIR_GH
 $ git clone [new_repo_link] GA_projects
