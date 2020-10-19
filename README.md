@@ -24,6 +24,8 @@ my_username@my_computer_name /g/DS/DSIR_GH/GA_projects (BARE:master)
 $ git remote add origin [new_repo_link]
 
 # Pushing all to new repo
+# Note: If you don't have an SSH key set up for your personal github, use HTTPS, otherwise, 
+# your commits will come from your git.generalassemb.ly account
 my_username@my_computer_name /g/DS/DSIR_GH/GA_projects (BARE:master)
 $ git push --all
 
@@ -58,6 +60,7 @@ my_username@my_computer_name /g/DS/DSIR_GH/GA_projects (master)
 $ touch .gitignore
 
 # Edit .gitignore to include the folders you need to hide (for me it was labs/, quizzes/, and .ipynb_checkpoints/)
+# If you don't have atom set up as a command you can use, you can edit the .gitignore with any text editor
 my_username@my_computer_name /g/DS/DSIR_GH/GA_projects (master)
 $ atom .gitignore
 
