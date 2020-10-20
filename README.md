@@ -1,3 +1,5 @@
+# For Windows and Linux only
+
 # Transferring a Github Repo (with Commit History) while Hiding Sensitive Commit History
 
 It's been quite an adventure trying to transfer my files over from my General Assembly Github enterprise account after the course was over, and I'm sure other people are having similar issues trying to get things transferred over and configured properly, so here's a quick post that should go through the steps for you (all the steps).
