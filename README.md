@@ -107,6 +107,18 @@ $ git push origin --delete master
 # Rename the branch "clean" as "main" for consistency
 iplay@DESKTOP-I4VPRR3 MINGW64 /g/DS/DSIR_GH/GA_projects (clean)
 $ git branch -m clean main
+
+iplay@DESKTOP-I4VPRR3 MINGW64 /g/DS/DSIR_GH/GA_projects (clean)
+$ git push origin main
+```
+
+## Back to Github.com
+Now you'll have to change your default branch to 'main' again before we clean up the last branch
+
+```Bash
+# Delete the master branch (repeat this if there are other branches that still contain old commits)
+iplay@DESKTOP-I4VPRR3 MINGW64 /g/DS/DSIR_GH/GA_projects (clean)
+$ git push origin --delete clean
 ```
 
 ## You're all done!
