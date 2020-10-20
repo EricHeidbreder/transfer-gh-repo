@@ -75,7 +75,7 @@ $ git push
 
 # Use filter-branch to remove all commits involving the directory 'labs'
 my_username@my_computer_name /g/DS/DSIR_GH/GA_projects (master)
-$ git filter-branch --tree-filter "rm -rf labs" --prune-empty HEAD
+$ git filter-branch --tree-filter "rm -rf labs" -f --prune-empty HEAD
 
 # To remove all commits containing the directory 'quizzes'
 my_username@my_computer_name /g/DS/DSIR_GH/GA_projects (master)
